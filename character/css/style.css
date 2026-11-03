@@ -143,7 +143,15 @@ img { display: block; max-width: 100%; }
   font-size: clamp(16px, 2.2vw, 28px);
   line-height: 1;
 }
-.hero-top b { font-weight: 700; }
+.hero-top a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+.hero-top a:hover { opacity: 0.78; }
+.hero-top a:focus-visible,
+.home-footer a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 
 /* 큰 "플로" 타이포 (흰색 SVG, 크기는 폭으로 조절) */
 .hero-title {
@@ -450,6 +458,22 @@ img { display: block; max-width: 100%; }
   text-shadow:
      2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
      2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
+}
+
+.home-footer {
+  padding: 0 16px 24px;
+  text-align: center;
+  font-size: 12px;
+}
+.home-footer a {
+  display: inline-block;
+  color: var(--muted);
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.home-footer a:hover {
+  opacity: 0.75;
+  transform: translateY(-1px);
 }
 
 
