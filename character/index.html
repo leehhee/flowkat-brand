@@ -9,11 +9,13 @@
   <meta property="og:description" content="데이터 탐험가 플로를 소개합니다.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://brand.flowkat.dev/character/">
-  <meta property="og:image" content="https://brand.flowkat.dev/character/images/og.png">
+  <meta property="og:image" content="https://brand.flowkat.dev/character/images/og-v2.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="preload" href="fonts/SSRO-WaterDrop.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <link rel="stylesheet" href="css/style.css?v=20">
 </head>
 <body>
 <main class="page">
@@ -46,15 +48,22 @@
     <p class="tagline reveal">DATA <b>FLO</b>W EX<b>PLO</b>RER</p>
 
     <div class="anat-box reveal">
-      <!-- 설명 → 캐릭터를 잇는 점선 (좌표 기준: 가로 1000 × 세로 980) -->
-      <svg class="anat-leaders" viewBox="0 0 1000 980" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M292 50 H348 L384 196"/>
-        <path d="M790 668 L765 695 H660"/>
-        <path d="M100 752 L128 728 H372"/>
-      </svg>
-
       <div class="anat-fig">
         <img class="figure" src="images/flo-spin.webp" alt="플로 정면">
+        <!-- 설명 → 캐릭터를 잇는 점선
+             좌표 기준 = flo-spin.webp 픽셀(가로 800 × 세로 900), 정면 프레임 기준
+             끝점: 눈 패치(260,170) · 오른쪽 앞발(472,583) · 왼쪽 다리 외곽선(277,698)
+             시작점은 설명글(.note) 옆이라 박스 밖(음수, 800 초과)까지 나갈 수 있음 -->
+        <svg class="anat-leaders anat-leaders--desktop" viewBox="0 0 800 900" aria-hidden="true">
+          <path d="M181 119 H223 L260 170"/>
+          <path d="M668 556 H513 L472 583"/>
+          <path d="M38 725 L63 698 H277"/>
+        </svg>
+        <svg class="anat-leaders anat-leaders--mobile" viewBox="0 0 800 900" aria-hidden="true">
+          <path d="M146 144 H223 L260 170"/>
+          <path d="M617 577 H504 L472 583"/>
+          <path d="M154 648 H219 L277 698"/>
+        </svg>
       </div>
 
       <p class="note note-1"><strong>삼각형 눈 패치</strong>사막 끝까지 내다보는 <br>파수꾼의 시선</p>
@@ -143,7 +152,7 @@
       <div class="cell cell-tote"><img src="images/m_tote.webp" alt="에코백 목업" loading="lazy"></div>
     </div>
 
-    <div class="cell-cal"><img src="images/m_cal.webp?v=2" alt="2027 캘린더 목업" loading="lazy"></div>
+    <div class="cell-cal"><img src="images/m_cal.webp?v=3" alt="2027 캘린더 목업" loading="lazy"></div>
   </section>
 
 
@@ -156,10 +165,6 @@
       <p class="sec-title"><span class="hl">Than</span>kyou</p>
     </div>
   </section>
-
-  <footer class="home-footer">
-    <a href="https://flowkat.dev">← FlowKat 홈으로</a>
-  </footer>
 
 </main>
 
