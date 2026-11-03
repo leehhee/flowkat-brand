@@ -1,0 +1,495 @@
+/* =========================================================
+   FlowKat Character — style.css
+
+   목차
+   0. 폰트
+   1. 변수 (색상 · 폭)
+   2. 기본 설정
+   3. 공통 — 섹션 제목
+   4. HERO
+   5. 캐릭터 특징
+   6. 로고
+   7. TURNAROUND
+   8. EXPRESSION
+   9. MOCKUP
+   10. THANK YOU
+   11. 스크롤 등장 효과
+   12. 모바일 (640px 이하)
+   ========================================================= */
+
+
+/* ---------- 0. 폰트 ---------- */
+@font-face {
+  font-family: "SSRO WaterDrop";
+  src: url("../fonts/SSRO-WaterDrop.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/Pretendard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/Pretendard-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/Pretendard-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+
+/* ---------- 1. 변수 ---------- */
+:root {
+  --orange: #ff4e0f;      /* 메인 주황 (캐릭터 색) */
+  --ink: #0f0f10;         /* 본문 검정 */
+  --muted: #6b6b70;       /* 보조 텍스트 회색 */
+  --paper: #ffffff;       /* 페이지 배경 */
+  --panel: #f6f6f8;       /* 턴어라운드 카드 배경 */
+  --rule: #f6c9b8;        /* 턴어라운드 주황 기준선 */
+  --grid-line: #e6e6ea;   /* 턴어라운드 가로 줄 */
+  --leader: #c4c4c8;      /* 특징 설명 점선 */
+
+  --font-display: "SSRO WaterDrop", "Pretendard", sans-serif;
+  --font-body: "Pretendard", system-ui, -apple-system, sans-serif;
+
+  --maxw: 1280px;         /* 콘텐츠 최대 폭 (배경은 화면 100%) */
+}
+
+
+/* ---------- 2. 기본 설정 ---------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+img { display: block; max-width: 100%; }
+
+.page { width: 100%; overflow: hidden; }
+
+/* 가운데 정렬 콘텐츠 박스 */
+.wrap {
+  position: relative;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+
+
+/* ---------- 3. 공통 — 섹션 제목 ---------- */
+.sec-head {
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+.sec-title {
+  display: inline-block;
+  isolation: isolate;               /* 물결이 제목 뒤에만 깔리고 캐릭터 그림 뒤로 숨지 않게 */
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(24px, 2.8vw, 36px);
+  line-height: 1;
+}
+/* 앞 글자 아래 주황 물결 (images/wave.svg) */
+.sec-title .hl {
+  position: relative;
+  display: inline-block;
+}
+.sec-title .hl::before {
+  content: "";
+  position: absolute;
+  left: -0.3em;                     /* 글자 시작보다 약간 앞에서 */
+  right: -0.1em;
+  bottom: -0.15em;                  /* 위 절반은 글자와 겹치고, 아래 절반은 밑으로 */
+  height: 0.5em;
+  z-index: -1;                      /* 글자 뒤에 깔기 */
+  background: url("../images/wave.svg") no-repeat center / 100% 100%;
+}
+
+
+/* ---------- 4. HERO ---------- */
+/* 캐릭터 왼팔이 아래 섹션으로 튀어나오도록 overflow는 열어 두고, 위에 올라오게 z-index */
+.hero {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  background: var(--orange);
+}
+.hero-in {
+  position: relative;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  aspect-ratio: 1280 / 1010;
+  min-height: 520px;
+}
+
+/* 상단 FlowKat / Character Design: "플로" 타이포 양쪽 끝에 맞춤 (폭 = .hero-title) */
+.hero-top {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  width: 49%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(16px, 2.2vw, 28px);
+  line-height: 1;
+}
+.hero-top b { font-weight: 700; }
+
+/* 큰 "플로" 타이포 (흰색 SVG, 크기는 폭으로 조절) */
+.hero-title {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  width: 49%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.hero-title img { width: 100%; }
+
+/* 캐릭터: 가운데보다 살짝 오른쪽
+   hero.svg는 위에서 82.8% 지점에서 몸통이 잘려 있음
+   → 바닥에 붙이고 17.75% 내려서 잘린 선을 히어로 바닥에 맞춤 (왼팔만 아래로 튀어나옴)
+   (17.23%에서는 몸통 아래로 주황 틈이 3px 정도 보여서 살짝 더 내림) */
+.hero-char {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  width: 44%;
+  transform: translateY(17.75%);
+  z-index: 2;
+}
+.hero-char img { width: 100%; }
+
+
+/* ---------- 5. 캐릭터 특징 ---------- */
+.anatomy {
+  container-type: inline-size;
+  padding: clamp(130px, 16vw, 230px) 0 clamp(60px, 8vw, 120px);  /* 위: 히어로 왼팔이 튀어나오는 공간 */
+}
+
+/* DATA FLOW EXPLORER 한 줄 (회전 플로 위) */
+.tagline {
+  margin-bottom: clamp(40px, 5vw, 72px);
+  text-align: center;
+  font-size: clamp(20px, 2.4vw, 32px);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.tagline b { font-weight: 700; }
+.anat-box {
+  position: relative;
+  width: min(100%, 1000px);
+  margin: 0 auto;
+  aspect-ratio: 1000 / 980;
+}
+
+/* 점선 연결선 */
+.anat-leaders {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  fill: none;
+  stroke: var(--leader);
+  stroke-width: 1.3;
+  stroke-dasharray: 5 5;
+}
+
+/* 캐릭터 (360도 회전 webp) */
+.anat-fig {
+  position: absolute;
+  top: -5%;                  /* webp 안의 위아래 여백만큼 보정 → 캐릭터 위치는 이전과 동일 */
+  left: 50%;
+  height: 101.4%;
+  aspect-ratio: 800 / 900;   /* flo-spin.webp 실제 비율 */
+  transform: translateX(-50%);
+}
+
+.anat-fig .figure {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;       /* 비율 유지 — 다시 찌그러지지 않게 */
+}
+
+/* 설명 텍스트 */
+.note {
+  position: absolute;
+  font-size: clamp(10px, 1.45cqi, 15px);
+  line-height: 1.5;
+  color: var(--muted);
+  word-break: keep-all;
+}
+.note strong {
+  display: block;
+  margin-bottom: 0.15em;
+  font-weight: 700;
+  font-size: 1.04em;
+  color: var(--ink);
+}
+.note-1 { left: 12%; top: 3%; }
+.note-2 { right: 8%; top: 60%; }
+.note-3 { left: 8%;  top: 77%; }
+
+
+/* ---------- 6. 로고 ---------- */
+.logo-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(40px, 6vw, 80px) 0 clamp(36px, 5vw, 64px);
+}
+.logo-strip .logo {
+  height: clamp(34px, 4vw, 52px);   /* 로고 SVG (아이콘 + 워드마크 한 파일) */
+  width: auto;
+}
+
+
+/* ---------- 7. TURNAROUND ---------- */
+/* 회색 배경 · 가로줄 · 기준선은 화면 100%, 캐릭터는 가운데 1280px 안에 */
+.turn-card {
+  padding: clamp(28px, 3.5vw, 44px) 0;
+  background: var(--panel);
+}
+.turn-card .sec-head { margin-bottom: clamp(20px, 3vw, 40px); }
+
+.turn-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: end;
+  padding: clamp(18px, 3vw, 40px) max(6%, calc(50% - var(--maxw) / 2 + 77px)) clamp(14px, 2.2vw, 28px);
+  /* 캐릭터 시트 가로 줄 */
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(12.5% - 1px),
+    var(--grid-line) calc(12.5% - 1px),
+    var(--grid-line) 12.5%
+  );
+}
+/* 위 · 아래 주황 기준선 */
+.turn-row::before,
+.turn-row::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.5px;
+  background: var(--rule);
+}
+.turn-row::before { top: 0; }
+.turn-row::after  { bottom: 0; }
+.turn-row + .turn-row { margin-top: clamp(18px, 2.4vw, 32px); }
+
+.turn-row figure {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: clamp(150px, 24vw, 300px);
+}
+.turn-row img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+/* 원본 SVG 높이 차이 보정 */
+.turn-row img.h-97 { height: 96.6%; }
+.turn-row img.h-96 { height: 96.3%; }
+
+.turn-labels {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 14px max(6%, calc(50% - var(--maxw) / 2 + 77px)) 0;
+  font-size: clamp(9px, 1vw, 12px);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--muted);
+}
+
+
+/* ---------- 8. EXPRESSION ---------- */
+.expr { padding: clamp(90px, 12vw, 160px) clamp(16px, 8%, 120px) clamp(80px, 10vw, 140px); }
+.expr .sec-head { margin-bottom: clamp(40px, 6vw, 80px); }
+
+.expr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: clamp(28px, 5vw, 70px);
+  column-gap: clamp(10px, 3vw, 40px);
+  max-width: 1060px;                /* 스티커가 커져도 옆 칸과 붙지 않게 */
+  margin: 0 auto;
+}
+.expr-grid figure {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: clamp(143px, 26.4vw, 319px);   /* 칸 높이 10% 키움 (기존 마우스 오버 크기 = 기본 크기) */
+}
+.expr-grid img {
+  width: 100%;                      /* SVG 원래 크기(227×265px)에 묶이지 않고 칸을 꽉 채움 */
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;   /* 발끝을 칸 바닥에 맞춤 */
+  scale: 1.15;                      /* 캐릭터 크기 15% 확대 (칸 크기는 그대로) */
+  transform-origin: 50% 100%;       /* 발 위치 기준으로 커지게 */
+  transition: transform 0.35s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.expr-grid figure:hover img { transform: scale(1.15); }  /* 마우스 오버: 확대 */
+
+/* 포즈별 크기 보정 (작은 포즈는 줄여서 균형 맞춤) */
+.expr-grid img.h-85 { height: 85%; }
+.expr-grid img.h-72 { height: 72%; }
+.expr-grid img.h-70 { height: 70%; }
+
+
+/* ---------- 9. MOCKUP ---------- */
+.mock .sec-head { margin-bottom: clamp(24px, 3.5vw, 44px); }
+
+.mock .cell {
+  position: relative;
+  overflow: hidden;
+}
+.mock .cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+/* 마우스 오버: 살짝 확대 (컵 · 후드 · 케이스 · 에코백) — 스티커팩 · 캘린더는 아래에서 기울기와 함께 지정 */
+.mock .cell:hover img { transform: scale(1.05); }
+
+/* 1줄: 컵 | 스티커 */
+.mock-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mock-row-1 .cell { aspect-ratio: 1 / 1; }
+.cell-cup img { object-position: 50% 60%; }
+/* 스티커 팩: 칸 가운데에 살짝 작게 + 시계 방향 5도 기울임 */
+.cell-sticker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFEAE7;              /* 사진 속 분홍(#FFE9E8)과 맞춰 모서리 선이 안 보이게 */
+}
+.mock .cell-sticker img {
+  width: auto;
+  height: 88%;                      /* 칸 높이의 88% */
+  object-fit: contain;
+  transform: rotate(5deg);
+}
+.mock .cell-sticker:hover img { transform: rotate(5deg) scale(1.05); }  /* 기울기 유지하며 확대 */
+
+/* 2줄: 후드 · 에코백 (왼쪽 1/3) | 폰케이스 (오른쪽 2/3) */
+.mock-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+.cell-hood,
+.cell-tote { aspect-ratio: 1 / 0.93; }
+.cell-case {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+/* 3줄: 캘린더 (기울여서 배치) */
+.cell-cal {
+  position: relative;
+  aspect-ratio: 1280 / 880;
+  overflow: hidden;
+  background: #3a3a3a;
+}
+.cell-cal img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -28도 기울여도 칸(1280:880) 모서리에 빈 곳이 안 생기는 최소 폭
+     필요 폭 = 1280×cos28° + 880×sin28° ≈ 1543px → 120.6% (여유 두고 121%) */
+  width: 121%;
+  max-width: none;
+  transform: translate(-50%, -50%) rotate(-28deg);
+  transition: transform 0.8s ease;
+}
+.cell-cal:hover img { transform: translate(-50%, -50%) rotate(-28deg) scale(1.05); }  /* 위치 · 기울기 유지하며 확대 */
+
+
+/* ---------- 10. THANK YOU ---------- */
+.thanks {
+  display: flex;
+  justify-content: center;
+  padding: clamp(70px, 9vw, 120px) 0 clamp(80px, 10vw, 140px);
+}
+.thanks-in {
+  position: relative;
+  width: clamp(120px, 15vw, 190px);
+}
+.thanks-in img { width: 100%; }
+.thanks-in .sec-title {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: clamp(24px, 3vw, 38px);
+  /* 캐릭터 위에서도 읽히도록 흰 테두리 */
+  text-shadow:
+     2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+     2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
+}
+
+
+/* ---------- 11. 스크롤 등장 효과 (js/main.js와 연결) ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);            /* 아래에서 올라오며 등장 */
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+
+/* ---------- 12. 모바일 (640px 이하) ---------- */
+@media (max-width: 640px) {
+  /* HERO */
+  .hero-in    { aspect-ratio: auto; min-height: 0; height: 560px; }
+  .hero-top   { top: 5%; width: 78%; }      /* 타이포 폭에 맞춰 양쪽 끝 */
+  .hero-title { top: 11%; width: 78%; }
+  .hero-char  { left: 20%; width: 74%; }     /* translateY(17.75%)는 데스크톱과 같은 비율 */
+
+  /* 캐릭터 특징: 튀어나온 팔 공간 */
+  .anatomy { padding-top: 90px; }
+
+  /* 캐릭터 특징 */
+  .anat-leaders { display: none; }
+  .note    { max-width: 25%; font-size: 10px; }
+  .note br { display: none; }
+  .note-1  { left: 0;  top: 1%; }
+  .note-2  { right: 0; top: 52%; text-align: right; }
+  .note-3  { left: 0;  top: 70%; }
+
+  /* TURNAROUND */
+  .turn-row    { padding-left: 2%; padding-right: 2%; }
+  .turn-labels { padding-left: 2%; padding-right: 2%; letter-spacing: 0.04em; }
+}

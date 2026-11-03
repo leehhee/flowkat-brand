@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlowKat Character Design — 플로</title>
+  <link rel="preload" href="fonts/SSRO-WaterDrop.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css?v=12">
+</head>
+<body>
+<main class="page">
+
+  <!-- =========================================================
+       1. HERO
+       ========================================================= -->
+  <section class="hero" aria-label="FlowKat 캐릭터 소개">
+    <div class="hero-in">
+      <div class="hero-top">
+        <b>FlowKat</b>
+        <span>Character Design</span>
+      </div>
+      <div class="hero-title">
+        <img src="images/flow-word.svg" alt="플로 타이포">
+      </div>
+      <!-- 히어로 캐릭터: images/hero.svg 파일을 교체하면 됩니다 -->
+      <div class="hero-char">
+        <img src="images/hero.svg" alt="손 흔드는 플로">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       2. 캐릭터 특징 (점선 칼선 + 설명 3개)
+       ========================================================= -->
+  <section class="anatomy wrap">
+    <p class="tagline reveal">DATA <b>FLO</b>W EX<b>PLO</b>RER</p>
+
+    <div class="anat-box reveal">
+      <!-- 설명 → 캐릭터를 잇는 점선 (좌표 기준: 가로 1000 × 세로 980) -->
+      <svg class="anat-leaders" viewBox="0 0 1000 980" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M292 50 H348 L384 196"/>
+        <path d="M790 668 L765 695 H660"/>
+        <path d="M100 752 L128 728 H372"/>
+      </svg>
+
+      <div class="anat-fig">
+        <img class="figure" src="images/flo-spin.webp" alt="플로 정면">
+      </div>
+
+      <p class="note note-1"><strong>삼각형 눈 패치</strong>사막 끝까지 내다보는 <br>파수꾼의 시선</p>
+      <p class="note note-2"><strong>배 앞에 모은 앞발</strong>이상 신호가 보이면 <br>바로 움직일 준비</p>
+      <p class="note note-3"><strong>꼿꼿이 선 자세</strong>늘 깨어 있는 미어캣의 <br>경계 자세, 24시간 모니터링</p>
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       3. 로고
+       ========================================================= -->
+  <div class="logo-strip wrap reveal">
+    <img class="logo" src="images/flowkat-logo.svg" alt="FlowKat">
+  </div>
+
+
+  <!-- =========================================================
+       4. TURNAROUND
+       ========================================================= -->
+  <section class="turn">
+    <div class="turn-card reveal">
+      <div class="sec-head"><h2 class="sec-title"><span class="hl">Tur</span>naround</h2></div>
+
+      <!-- 2D 라인 -->
+      <div class="turn-row">
+        <figure><img class="h-97" src="images/turn_front.svg"  alt="정면"></figure>
+        <figure><img class="h-97" src="images/turn_34.svg"     alt="3/4 측면"></figure>
+        <figure><img class="h-96" src="images/turn_side.svg"   alt="측면"></figure>
+        <figure><img src="images/turn_back34.svg" alt="3/4 후면"></figure>
+        <figure><img src="images/turn_back.svg"   alt="후면"></figure>
+      </div>
+
+      <!-- 3D 렌더 -->
+      <div class="turn-row">
+        <figure><img src="images/rfront.webp"  alt="3D 정면"></figure>
+        <figure><img src="images/r34.webp"     alt="3D 3/4 측면"></figure>
+        <figure><img src="images/rside.webp"   alt="3D 측면"></figure>
+        <figure><img src="images/rback34.webp" alt="3D 3/4 후면"></figure>
+        <figure><img src="images/rback.webp"   alt="3D 후면"></figure>
+      </div>
+
+      <div class="turn-labels">
+        <span>Front</span><span>3/4</span><span>Side</span><span>Back 3/4</span><span>Back</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       5. EXPRESSION
+       ========================================================= -->
+  <section class="expr">
+    <div class="sec-head reveal"><h2 class="sec-title"><span class="hl">Exp</span>ression</h2></div>
+
+    <div class="expr-grid">
+      <figure class="reveal"><img src="images/sticker-01.svg" alt="깃발 든 플로"></figure>
+      <figure class="reveal"><img src="images/sticker-02.svg" alt="돋보기 든 플로"></figure>
+      <figure class="reveal"><img src="images/sticker-03.svg" alt="메가폰 든 플로"></figure>
+
+      <figure class="reveal"><img src="images/sticker-04.svg" alt="노트북 하는 플로"></figure>
+      <figure class="reveal"><img src="images/sticker-05.svg" alt="점프하는 플로"></figure>
+      <figure class="reveal"><img src="images/sticker-06.svg" alt="주먹 쥔 플로"></figure>
+
+      <figure class="reveal"><img src="images/sticker-07.svg" alt="망원경 보는 플로"></figure>
+      <figure class="reveal"><img src="images/sticker-08.svg" alt="서핑하는 플로"></figure>
+      <figure class="reveal"><img src="images/sticker-09.svg" alt="웅크린 플로"></figure>
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       6. MOCKUP
+       ========================================================= -->
+  <section class="mock">
+    <div class="sec-head reveal"><h2 class="sec-title"><span class="hl">Moc</span>kup</h2></div>
+
+    <div class="mock-row-1">
+      <div class="cell cell-cup"><img src="images/m_cup.webp" alt="종이컵 목업" loading="lazy"></div>
+      <div class="cell cell-sticker"><img src="images/m_sticker.webp" alt="스티커 팩 목업" loading="lazy"></div>
+    </div>
+
+    <div class="mock-row-2">
+      <div class="cell cell-hood"><img src="images/m_hood.webp" alt="후드티 목업" loading="lazy"></div>
+      <div class="cell cell-case"><img src="images/m_case.webp" alt="휴대폰 케이스 목업" loading="lazy"></div>
+      <div class="cell cell-tote"><img src="images/m_tote.webp" alt="에코백 목업" loading="lazy"></div>
+    </div>
+
+    <div class="cell-cal"><img src="images/m_cal.webp?v=2" alt="2027 캘린더 목업" loading="lazy"></div>
+  </section>
+
+
+  <!-- =========================================================
+       7. THANK YOU
+       ========================================================= -->
+  <section class="thanks wrap">
+    <div class="thanks-in reveal">
+      <img src="images/turn_front.svg" alt="">
+      <p class="sec-title"><span class="hl">Than</span>kyou</p>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
