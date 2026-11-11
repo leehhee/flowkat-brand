@@ -16,8 +16,43 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="preload" href="fonts/SSRO-WaterDrop.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css?v=20">
+  <link rel="stylesheet" href="css/site-header.css">
 </head>
 <body>
+<!-- =========================================================
+     FlowKat 사이트 헤더 (메인 brand.flowkat.dev 헤더와 같은 모양)
+     로고 → 메인(/), Brand만 링크(현재 페이지), 나머지 메뉴는 모양만.
+     스타일: css/site-header.css, 모바일 메뉴 열기: js/site-header.js
+     ========================================================= -->
+<header class="fk-header">
+  <div class="fk-header-bar">
+    <a class="fk-logo" href="/" aria-label="홈">
+      <img class="fk-mark" src="/brand/logo-mark.svg" alt="" width="40" height="40">
+      <svg class="fk-wordmark" viewBox="0 0 284.094 68.942" fill="currentColor" role="img" aria-label="FlowKat"><path d="M96.934,17.645c-10.946,0-19.38,9.538-22.417,24.823-3.433,16.846,1.555,26.474,14.523,26.474,13.791,0,20.041-11.717,22.625-24.651,3.025-15.054-.32-26.647-14.732-26.647ZM100.305,43.416c-2.222,10.145-5.643,16.139-10.269,16.139-4.914,0-6.507-4.549-4.246-15.747,1.562-7.808,5.097-16.681,10.415-16.681,6.492,0,6.034,7.382,4.1,16.289Z"/><path d="M55.024,29.561h-21.016l3.336-16.219h22.278l2.277-10.094h-25.821c-4.662,0-8.689,3.259-9.66,7.819l-9.28,43.567c-1.915,7.889-8.974,13.488-17.138,13.488h11.28c8.442,0,15.732-5.906,17.485-14.163l1.287-6.064.035-.011,1.742-8.228h21.015l2.181-10.094Z"/><path d="M78.379,0h-11.522l-8.814,41.437s-.009-.005-.008-.005l-2.678,12.344c-1.753,8.258-8.863,14.163-17.304,14.163h11.28c8.442,0,15.732-5.906,17.484-14.163l1.376-5.931.009-.003L78.379,0Z"/><path d="M208.993,61.801l-.203-.808-.04-.223s.009.068.025.165l-7.293-29.014c-.34-1.351-.005-2.782.897-3.843l21.125-24.83h-13.711c-6.875,8.88-17.509,22.166-22.914,29.119l6.33-29.119h-11.442l-3.231,15.166h-2.933,0s-6.25-.001-6.25-.001c-3.354,0-6.366,2.074-7.569,5.205-4.168,10.845-6.803,18.005-8.573,23.168-.733,1.737-2.267,1.411-2.22-.484l.274-10.13-.033.158c.089-4.213.17-8.87.25-13.859.036-2.226-1.756-4.058-3.983-4.058h-3.176c-2.122,0-3.58.992-4.188,2.498-4.714,11.678-8.161,20.013-10.483,25.961-.751,1.673-2.591,1.304-2.544-.571l.008-.174c.257-5.412.523-12.568.887-21.676.132-3.292-2.501-6.039-5.796-6.039h-3.378s-.008.001-.012.001h-7.267s5.208.526,5.208,3.901l.005-.008.46,39.222c.043,3.679,3.038,6.638,6.717,6.637h.244c2.686,0,5.115-1.61,6.175-4.078,5.551-12.921,9.984-22.395,12.081-28.771h.096c-.388,5.878-.25,14.304-.449,25.773-.056,3.257,2.111,6.259,5.298,6.929,3.168.666,6.255-.975,7.533-3.804l18.976-42.017c1.406-2.806,3.63-3.532,4.628-3.719l-10.584,49.687h11.442l3.579-16.769c.534-2.502,1.728-4.816,3.459-6.7l5.543-6.037,5.631,24.704c.64,2.81,3.139,4.803,6.021,4.803h6.98v-.004s6.523-.034,6.523-.034c-5.742-1.058-7.562-4.566-8.123-6.328Z"/><path d="M238.045,17.644c-11.721,0-16.033,6.508-17.834,14.282h10.816c.917-3.501,2.368-5.955,6-5.955,5.221,0,5.21,3.931,4.411,7.732l-.132.582c-.4,1.77-1.898,3.079-3.704,3.246-2.368.218-4.659.477-6.894.882-8.577,1.528-15.184,4.688-17.112,14.217-1.551,7.766.777,16.312,10.746,16.312,5.303,0,8.208-1.685,10.696-4.99l-.01.042c-.469,2.147,1.2,4.172,3.398,4.172h7.062s0-.002,0-.003h4.354c-3.261-1.041-2.916-6.811-2.83-7.821.313-1.453.635-2.945.933-4.404l4.476-21.102c2.546-11.798-3.144-17.192-14.377-17.192ZM238.294,48.672c-1.444,7.316-4.092,11.149-9.025,11.149-4.223,0-5.117-3.221-4.326-6.879.829-3.827,3.708-5.521,7.57-6.487,1.908-.48,4.104-.672,6.387-.872l-.606,3.09Z"/><path d="M274.085,59.934l-.003.014c-.962.189-2.688.128-3.913.128-3.531,0-3.781-1.688-3.182-4.572l6.131-27.89h7.322l1.915-9.202h-7.233l2.703-12.281h-11.427l-2.702,12.281h-6.242l-2.004,9.202h6.242l-6.515,29.138c-1.888,9.045,1.689,12.086,9.61,12.086,1.831,0,5.141-.024,7.441-.768,8.943-1.372,11.867-13.873,11.867-13.873-3.124,5.25-10.009,5.736-10.009,5.736Z"/></svg>
+    </a>
+    <nav class="fk-nav" aria-label="주 메뉴">
+        <span class="fk-nav-item" aria-disabled="true">Overview</span>
+        <a class="fk-nav-item is-current" href="/character/" aria-current="page">Brand</a>
+        <span class="fk-nav-item" aria-disabled="true">Foundation</span>
+        <span class="fk-nav-item" aria-disabled="true">Components</span>
+        <span class="fk-nav-item" aria-disabled="true">Blocks</span>
+        <span class="fk-nav-item" aria-disabled="true">Charts</span>
+        <span class="fk-nav-item" aria-disabled="true">Resources</span>
+    </nav>
+    <div class="fk-actions">
+      <button class="fk-menu-btn" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="fk-mobile-menu">
+        <svg class="fk-icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+        <svg class="fk-icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="fk-mobile-menu" id="fk-mobile-menu" aria-label="모바일 메뉴" hidden>
+    <ul>
+      <li><span class="fk-mobile-item" aria-disabled="true">Overview</span></li><li><a class="fk-mobile-item is-current" href="/character/" aria-current="page">Brand</a></li><li><span class="fk-mobile-item" aria-disabled="true">Foundation</span></li><li><span class="fk-mobile-item" aria-disabled="true">Components</span></li><li><span class="fk-mobile-item" aria-disabled="true">Blocks</span></li><li><span class="fk-mobile-item" aria-disabled="true">Charts</span></li><li><span class="fk-mobile-item" aria-disabled="true">Resources</span></li>
+    </ul>
+  </nav>
+</header>
+
 <main class="page">
 
   <!-- =========================================================
@@ -169,5 +204,6 @@
 </main>
 
 <script src="js/main.js"></script>
+<script src="js/site-header.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/3yt3_od8xueha.js"
+5:"/_next/static/chunks/0kz1l7xa6bjjs.js"
+6:I[39756,["$4","$5"],"default"]
+7:I[37457,["$4","$5"],"default"]
+c:"/_next/static/chunks/0hsoza7-ffo3s.js"
+d:"/_next/static/chunks/431fhti38gv8e.js"
+e:"/_next/static/chunks/26a6vaj4-qdbu.js"
+f:"/_next/static/chunks/25so3-l8latpu.js"
+10:"/_next/static/chunks/3yen7fnquelxb.js"
+11:I[46830,["$4","$5","$c","$d","$e","$f","$10"],"DocsPage"]
+12:I[46830,["$4","$5","$c","$d","$e","$f","$10"],"DocsTitle"]
+13:I[46830,["$4","$5","$c","$d","$e","$f","$10"],"DocsDescription"]
+14:I[46830,["$4","$5","$c","$d","$e","$f","$10"],"DocsBody"]
+15:I[94157,["$4","$5","$c","$d","$e","$f","$10"],"Heading"]
+16:I[97367,["$4","$5"],"OutletBoundary"]
+17:"$Sreact.suspense"
+1a:"ViewportBoundary"
+1b:I[97367,["$4","$5"],"$1a"]
+1c:"MetadataBoundary"
+1d:I[97367,["$4","$5"],"$1c"]
+1e:I[27201,["$4","$5"],"IconMark"]
+9:X
+9:C
+a:X
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L11",null,{"toc":[{"depth":2,"url":"#제목","title":"제목"},{"depth":2,"url":"#제목-1","title":"제목"},{"depth":3,"url":"#제목-2","title":"제목"},{"depth":2,"url":"#제목-3","title":"제목"}],"full":false,"breadcrumb":{"enabled":false},"tableOfContent":{"enabled":true},"tableOfContentPopover":{"enabled":false},"className":"px-4 pb-14 md:px-6 xl:px-8 *:max-w-[900px]!","footer":{"className":"[&>a]:rounded-[12px]"},"children":[["$","p",null,{"className":"text-sm text-fd-muted-foreground","children":"Foundation"}],["$","$L12",null,{"className":"text-[2rem] leading-[1.1] font-medium tracking-tight md:text-[3rem] xl:text-[3.75rem]","children":"Motion"}],["$","$L13",null,{"className":"text-base font-light","children":"설명 텍스트"}],null,["$","$L14",null,{"children":[["$","$L15",null,{"as":"h2","id":"제목","children":"제목"}],"\n",["$","p",null,{"children":"설명 텍스트"}],"\n",["$","div",null,{"aria-hidden":true,"style":{"aspectRatio":"16/9"},"className":"bg-placeholder not-prose my-6 w-full rounded-card"}],"\n",["$","$L15",null,{"as":"h2","id":"제목-1","children":"제목"}],"\n",["$","p",null,{"children":"설명 텍스트"}],"\n",["$","$L15",null,{"as":"h3","id":"제목-2","children":"제목"}],"\n",["$","p",null,{"children":"설명 텍스트"}],"\n",["$","$L15",null,{"as":"h2","id":"제목-3","children":"제목"}],"\n",["$","p",null,{"children":"설명 텍스트"}],"\n",["$","div",null,{"aria-hidden":true,"style":{"aspectRatio":"2/1"},"className":"bg-placeholder not-prose my-6 w-full rounded-card"}]]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/25so3-l8latpu.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3yen7fnquelxb.js","async":true}]],["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]]}],"p":"$@19","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"c","k":"foundation/motion","s":["fonts"]},"h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":32,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Motion — FlowKat Design System"}],["$","meta","1",{"name":"description","content":"설명 텍스트"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.39nn9brimyilz.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.02f8ul0hj6jy9.svg","sizes":"any","type":"image/svg+xml"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0cgxq31pl9ukx.png","sizes":"180x180","type":"image/png"}],["$","$L1e","5",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1f","v":null,"s":"$a"}},"a":"$@20","u":"$@21","b":"wuP6W-Me85GIWazTX5Pfh"}
+18:null
+21:true
+a:300
+a:C
+20:0
+8:"$undefined"
+1f:"$undefined"
+19:"$undefined"
