@@ -1,0 +1,12 @@
+:HL["/_next/static/chunks/1830lp_6qefjr.css","style"]
+:HL["/_next/static/chunks/3zmii6hiij-4t.css","style"]
+:HL["/brand/logos/logo/h-orange-black.svg","image"]
+:HL["/brand/logos/logo/h-orange-white.svg","image"]
+:HL["/brand/logos/logo/h-black-black.svg","image"]
+:HL["/brand/logos/logo/h-black-white.svg","image"]
+:HL["/brand/logos/logo/wordmark-black.svg","image"]
+:HL["/brand/logos/logo/wordmark-white.svg","image"]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"c","k":"brand/colors","s":["fonts"]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"(docs)","h":131168,"c":"$Q2"}]]
+0:{"b":"s_xsG_RAKpWpAXGidjme0","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
