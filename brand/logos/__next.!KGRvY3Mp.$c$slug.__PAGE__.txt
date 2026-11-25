@@ -1,44 +1,35 @@
-1:"$Sreact.fragment"
-2:"/_next/static/chunks/261d8_kj9_kw0.js"
-3:"/_next/static/chunks/0kz1l7xa6bjjs.js"
-4:I[17751,["$2","$3"],"RootProvider"]
-5:I[39756,["$2","$3"],"default"]
-6:I[37457,["$2","$3"],"default"]
-a:"/_next/static/chunks/2uih71cldngtb.js"
-b:"/_next/static/chunks/0gvtm1nu5u8tl.js"
-c:"/_next/static/chunks/3f5h555lesj96.js"
-d:I[41310,["$2","$3","$a","$b","$c"],"LayoutBody"]
-e:I[81856,["$2","$3","$a","$b","$c"],"SiteHeader"]
-18:"ViewportBoundary"
-19:I[97367,["$2","$3"],"$18"]
-1a:"MetadataBoundary"
-1b:I[97367,["$2","$3"],"$1a"]
-1c:"$Sreact.suspense"
-1d:I[27201,["$2","$3"],"IconMark"]
-:HL["/_next/static/chunks/3v3i_aeaw1bs9.css","style"]
-8:X
-14:X
-14:C
-15:[["children",{"s":"__PAGE__","h":160,"d":{"r":"$L16","p":"$@17","v":null,"s":"$8"}}]]
-11:[["children",{"s":{"n":"slug","t":"c","k":"brand/logos","s":["fonts"]},"h":65632,"d":{"r":"$L12","p":"$@13","v":"$14","s":"$8"},"c":"$Q15"}]]
-9:[["children",{"s":"(docs)","h":131168,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2uih71cldngtb.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0gvtm1nu5u8tl.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/3f5h555lesj96.js","async":true}]],["$","$Ld",null,{"tree":{"type":"root","$ref":{"folder":"","meta":"meta.json"},"$id":"root","name":"Docs","children":[{"type":"folder","name":"Brand","root":true,"children":[{"$id":"brand/index.mdx","type":"page","name":"Overview","description":"브랜드 가이드 전체 구성","url":"/brand","$ref":"brand/index.mdx"},{"$id":"brand/values.mdx","type":"page","name":"Values","description":"FlowKat의 가치와 나아갈 방향","url":"/brand/values","$ref":"brand/values.mdx"},{"$id":"brand/logos.mdx","type":"page","name":"Logos","description":"로고의 구성과 사용 규정","url":"/brand/logos","$ref":"brand/logos.mdx"},{"$id":"brand/character.mdx","type":"page","name":"Character","description":"마스코트 플로의 모습과 활용","url":"/brand/character","$ref":"brand/character.mdx"},{"$id":"brand/colors.mdx","type":"page","name":"Colors","description":"브랜드 컬러와 로고 컬러 조합","url":"/brand/colors","$ref":"brand/colors.mdx"},{"$id":"brand/notation.mdx","type":"page","name":"Notation","description":"브랜드명 표기와 제휴 로고 병기","url":"/brand/notation","$ref":"brand/notation.mdx"}],"$id":"brand","$ref":{"folder":"brand","meta":"brand/meta.json"}}]},"tabs":[],"tabMode":"sidebar","sidebar":{"collapsible":false},"nav":{"mode":"top","component":["$","$Le",null,{"sections":[{"label":"Brand","href":"/brand/","path":"/brand","children":[{"label":"Values","href":"/brand/values"},{"label":"Logos","href":"/brand/logos"},{"label":"Character","href":"/brand/character"},{"label":"Colors","href":"/brand/colors"},{"label":"Notation","href":"/brand/notation"}]},{"label":"Foundation","path":"/foundation","children":[]},{"label":"Components","path":"/components","children":[]},{"label":"Blocks","path":"/blocks","children":[]},{"label":"Charts","path":"/charts","children":[]},{"label":"Resources","path":"/resources","children":[]}],"className":"[grid-area:header]"}]},"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:style","children":"$Lf"}]]}]}]],[]]}]}]]}],"p":"$@10","v":null,"s":"$8"},"c":"$Q11"}]]
-0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3v3i_aeaw1bs9.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/261d8_kj9_kw0.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0kz1l7xa6bjjs.js","async":true}]],["$","html",null,{"lang":"ko","className":"_9iHlCa_variable","suppressHydrationWarning":true,"children":["$","body",null,{"className":"flex min-h-screen flex-col overflow-x-clip antialiased","children":["$","$L4",null,{"theme":{"defaultTheme":"light","enableSystem":false},"search":{"enabled":false},"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]]}],"p":"$@7","v":null,"s":"$8"},"c":"$Q9"},"h":{"r":["$","$1","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Logos — FlowKat Design System"}],["$","meta","1",{"name":"description","content":"FlowKat 로고의 구성과 형태, 올바른 사용 규정을 안내합니다."}],["$","meta","2",{"property":"og:title","content":"FlowKat Design System"}],["$","meta","3",{"property":"og:description","content":"로그가 있다, 로그를 잇다."}],["$","meta","4",{"property":"og:url","content":"https://brand.flowkat.dev/"}],["$","meta","5",{"property":"og:image","content":"https://brand.flowkat.dev/og-image.png"}],["$","meta","6",{"property":"og:image:width","content":"1200"}],["$","meta","7",{"property":"og:image:height","content":"630"}],["$","meta","8",{"property":"og:image:alt","content":"FlowKat Design System"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"FlowKat Design System"}],["$","meta","12",{"name":"twitter:description","content":"로그가 있다, 로그를 잇다."}],["$","meta","13",{"name":"twitter:image","content":"https://brand.flowkat.dev/og-image.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico?favicon.39nn9brimyilz.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","15",{"rel":"icon","href":"/icon.svg?icon.02f8ul0hj6jy9.svg","sizes":"any","type":"image/svg+xml"}],["$","link","16",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0cgxq31pl9ukx.png","sizes":"180x180","type":"image/png"}],["$","$L1d","17",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$8"}},"a":"$@1f","u":"$@20","b":"8dlFAlFKjgoUwmsUOUshr"}
-21:"/_next/static/chunks/25so3-l8latpu.js"
-22:"/_next/static/chunks/2-aw6zhzho9z7.js"
-23:"/_next/static/chunks/15im2dgcgf536.js"
-24:I[46830,["$2","$3","$a","$b","$c","$21","$22","$23"],"DocsPage"]
-25:I[60341,["$2","$3","$a","$b","$c","$21","$22","$23"],"TOCProvider"]
-26:"SiteTableOfContents"
-27:I[57116,["$2","$3","$a","$b","$c","$21","$22","$23"],"$26"]
-28:I[63669,["$2","$3","$a","$b","$c","$21","$22","$23"],"TOCPopover"]
-29:I[71164,["$2","$3","$a","$b","$c","$21","$22","$23"],"DocsFooter"]
-2a:I[46830,["$2","$3","$a","$b","$c","$21","$22","$23"],"DocsTitle"]
-2b:I[46830,["$2","$3","$a","$b","$c","$21","$22","$23"],"DocsDescription"]
-2c:I[46830,["$2","$3","$a","$b","$c","$21","$22","$23"],"DocsBody"]
-2d:I[94157,["$2","$3","$a","$b","$c","$21","$22","$23"],"Heading"]
-f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]
-12:["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}]
-2e:T48e4,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/3as-e2yreem0r.js"
+5:"/_next/static/chunks/0kz1l7xa6bjjs.js"
+6:I[39756,["$4","$5"],"default"]
+7:I[37457,["$4","$5"],"default"]
+c:"/_next/static/chunks/0w3i_58rlxync.js"
+d:"/_next/static/chunks/0b54tc4pc-ctz.js"
+e:"/_next/static/chunks/3f5h555lesj96.js"
+f:"/_next/static/chunks/0177c_ias8ljn.js"
+10:"/_next/static/chunks/0yxem6sg8na1w.js"
+11:"/_next/static/chunks/178aw04ag7prk.js"
+12:I[46830,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsPage"]
+13:"TabAwareTOCProvider"
+14:I[20026,["$4","$5","$c","$d","$e","$f","$10","$11"],"$13"]
+15:"SiteTableOfContents"
+16:I[57116,["$4","$5","$c","$d","$e","$f","$10","$11"],"$15"]
+17:I[63669,["$4","$5","$c","$d","$e","$f","$10","$11"],"TOCPopover"]
+18:I[71164,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsFooter"]
+19:I[46830,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsTitle"]
+1a:I[46830,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsDescription"]
+1b:I[46830,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsBody"]
+1c:I[94157,["$4","$5","$c","$d","$e","$f","$10","$11"],"Heading"]
+2f:"ViewportBoundary"
+30:I[97367,["$4","$5"],"$2f"]
+31:"MetadataBoundary"
+32:I[97367,["$4","$5"],"$31"]
+33:"$Sreact.suspense"
+34:I[27201,["$4","$5"],"IconMark"]
+9:X
+9:C
+a:X
+1d:T48e4,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-primary-anatomy-svg-primary-logo">
 <path id="s--brand-logos-primary-anatomy-svg-Rectangle 5" d="M349 282V290H258V282" stroke-width="0.5" stroke="#C2C4C8"/>
 <path id="s--brand-logos-primary-anatomy-svg-Rectangle 6" d="M642 282V290H358V282" stroke-width="0.5" stroke="#C2C4C8"/>
@@ -85,13 +76,15 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-16:["$","$1","c",{"children":[["$","$L24",null,{"toc":[{"depth":2,"url":"#primary-logo","title":"Primary Logo"},{"depth":2,"url":"#secondary-logo","title":"Secondary Logo"},{"depth":2,"url":"#logo-types","title":"Logo Types"},{"depth":2,"url":"#usage-guidelines","title":"Usage Guidelines"}],"full":false,"breadcrumb":{"enabled":false},"tableOfContent":{"enabled":true},"tableOfContentPopover":{"enabled":false},"slots":{"toc":{"provider":"$25","main":"$27","popover":"$28"},"footer":"$29"},"className":"px-4 pb-14 md:px-6 xl:px-8 *:mx-auto *:w-full *:max-w-(--doc-content-width)!","footer":{"className":"[&>a]:rounded-12"},"children":[["$","p",null,{"className":"text-sm text-fd-muted-foreground","children":"Brand"}],["$","$L2a",null,{"className":"text-[2rem] leading-[1.1] font-bold tracking-tight md:text-[3rem] xl:text-[3.75rem]","children":"Logos"}],["$","$L2b",null,{"className":"mb-0 text-base font-light","children":"FlowKat 로고의 구성과 형태, 올바른 사용 규정을 안내합니다."}],null,["$","$L2c",null,{"className":"-mt-4","children":[["$","$L2d",null,{"as":"h2","id":"primary-logo","children":"Primary Logo"}],"\n",["$","p",null,{"children":"Primary 로고는 심볼과 워드마크를 결합한 기본형입니다. 정해진 형태와 규정에 맞게 쓰고, 로고 둘레의 최소 공간(Clear Space)에 다른 매체나 그래픽 요소가 들어오지 않도록 합니다."}],"\n",["$","figure",null,{"className":"not-prose my-doc-content","children":[["$","div",null,{"role":"img","aria-label":"FlowKat Primary 로고 구성: 심볼과 워드마크","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$2e"}}],"$undefined"]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39"]}]]}],["$L3a","$L3b","$L3c","$L3d"],"$L3e"]}]
-53:I[97367,["$2","$3"],"OutletBoundary"]
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L12",null,{"toc":[{"depth":2,"url":"#primary-logo","title":"Primary Logo"},{"depth":2,"url":"#secondary-logo","title":"Secondary Logo"},{"depth":2,"url":"#logo-types","title":"Logo Types"},{"depth":2,"url":"#usage-guidelines","title":"Usage Guidelines"}],"full":false,"breadcrumb":{"enabled":false},"tableOfContent":{"enabled":true},"tableOfContentPopover":{"enabled":false},"slots":{"toc":{"provider":"$14","main":"$16","popover":"$17"},"footer":"$18"},"className":"px-4 pb-14 md:px-6 xl:px-8 *:mx-auto *:w-full *:max-w-(--doc-content-width)!","footer":{"className":"[&>a]:rounded-12"},"children":[["$","p",null,{"className":"text-sm text-fd-muted-foreground","children":"Brand"}],["$","$L19",null,{"className":"text-[2rem] leading-[1.1] font-bold tracking-tight md:text-[3rem] xl:text-[3.75rem]","children":"Logos"}],["$","$L1a",null,{"className":"mb-0 text-base font-light","children":"FlowKat 로고의 구성과 형태, 올바른 사용 규정을 안내합니다."}],null,["$","$L1b",null,{"className":"-mt-4","children":[["$","$L1c",null,{"as":"h2","id":"primary-logo","children":"Primary Logo"}],"\n",["$","p",null,{"children":"Primary 로고는 심볼과 워드마크를 결합한 기본형입니다. 정해진 형태와 규정에 맞게 쓰고, 로고 둘레의 최소 공간(Clear Space)에 다른 매체나 그래픽 요소가 들어오지 않도록 합니다."}],"\n",["$","figure",null,{"className":"not-prose my-doc-content","children":[["$","div",null,{"role":"img","aria-label":"FlowKat Primary 로고 구성: 심볼과 워드마크","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$1d"}}],"$undefined"]}],"\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28"]}]]}],["$L29","$L2a","$L2b","$L2c"],"$L2d"]}],"p":"$@2e","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"c","k":"brand/logos","s":["fonts"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L30",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L32",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$33",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Logos — FlowKat Design System"}],["$","meta","1",{"name":"description","content":"FlowKat 로고의 구성과 형태, 올바른 사용 규정을 안내합니다."}],["$","meta","2",{"property":"og:title","content":"FlowKat Design System"}],["$","meta","3",{"property":"og:description","content":"로그가 있다, 로그를 잇다."}],["$","meta","4",{"property":"og:url","content":"https://brand.flowkat.dev/"}],["$","meta","5",{"property":"og:image","content":"https://brand.flowkat.dev/og-image.png"}],["$","meta","6",{"property":"og:image:width","content":"1200"}],["$","meta","7",{"property":"og:image:height","content":"630"}],["$","meta","8",{"property":"og:image:alt","content":"FlowKat Design System"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"FlowKat Design System"}],["$","meta","12",{"name":"twitter:description","content":"로그가 있다, 로그를 잇다."}],["$","meta","13",{"name":"twitter:image","content":"https://brand.flowkat.dev/og-image.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico?favicon.39nn9brimyilz.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","15",{"rel":"icon","href":"/icon.svg?icon.02f8ul0hj6jy9.svg","sizes":"any","type":"image/svg+xml"}],["$","link","16",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0cgxq31pl9ukx.png","sizes":"180x180","type":"image/png"}],["$","$L34","17",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@35","v":null,"s":"$a"}},"a":"$@36","u":"$@37","b":"q4B7kIAJscgkaE0IfDnY7"}
+4c:I[97367,["$4","$5"],"OutletBoundary"]
 :HL["/brand/logos/logo/symbol-orange.svg","image"]
 :HL["/brand/logos/logo/symbol-black.svg","image"]
-:HL["/_next/static/chunks/3zmii6hiij-4t.css","style"]
-8:300
-3f:T419e,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+:HL["/_next/static/chunks/2v5wlbiqhz38i.css","style"]
+38:T419e,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-primary-clear-space-svg-primary-logo-clear">
 <g id="s--brand-logos-primary-clear-space-svg-Frame 1357">
 <rect width="91" height="92" transform="translate(258 178)" fill="#EAEBEC"/>
@@ -163,11 +156,11 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-2f:["$","figure",null,{"className":"not-prose my-doc-content","children":[["$","div",null,{"role":"img","aria-label":"FlowKat Primary 로고 클리어 스페이스","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$3f"}}],"$L40"]}]
-30:["$","$L2d",null,{"as":"h2","id":"secondary-logo","children":"Secondary Logo"}]
-31:["$","p",null,{"children":"Secondary 로고는 워드마크 없이 미어캣 심볼만 쓰는 형태입니다. 주황 심볼은 대시보드에, 검정 심볼은 파생 서비스에 씁니다."}]
-32:["$","ul",null,{"className":"not-prose my-doc-content grid grid-cols-1 gap-3 min-[640px]:grid-cols-2","children":[["$","li",null,{"className":"@container flex aspect-[2/1] items-center rounded-doc-frame border border-cn-98 dark:border-cn-17","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-[calc(42.8cqw*92/385*0.3)]","children":[["$","img","symbol-orange",{"src":"/brand/logos/logo/symbol-orange.svg","alt":"FlowKat 주황 심볼","className":"h-auto w-[24%]","draggable":false}]]}]}],["$","li",null,{"className":"@container flex aspect-[2/1] items-center rounded-doc-frame border border-cn-98 dark:border-cn-17","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-[calc(42.8cqw*92/385*0.3)]","children":[["$","img","symbol-black",{"src":"/brand/logos/logo/symbol-black.svg","alt":"FlowKat 검정 심볼","className":"h-auto w-[24%]","draggable":false}]]}]}]]}]
-41:T26fb,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+1e:["$","figure",null,{"className":"not-prose my-doc-content","children":[["$","div",null,{"role":"img","aria-label":"FlowKat Primary 로고 클리어 스페이스","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$38"}}],"$L39"]}]
+1f:["$","$L1c",null,{"as":"h2","id":"secondary-logo","children":"Secondary Logo"}]
+20:["$","p",null,{"children":"Secondary 로고는 워드마크 없이 미어캣 심볼만 쓰는 형태입니다. 주황 심볼은 대시보드에, 검정 심볼은 파생 서비스에 씁니다."}]
+21:["$","ul",null,{"className":"not-prose my-doc-content grid grid-cols-1 gap-3 min-[640px]:grid-cols-2","children":[["$","li",null,{"className":"@container flex aspect-[2/1] items-center rounded-doc-frame border border-cn-98 dark:border-cn-17","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-[calc(42.8cqw*92/385*0.3)]","children":[["$","img","symbol-orange",{"src":"/brand/logos/logo/symbol-orange.svg","alt":"FlowKat 주황 심볼","className":"h-auto w-[24%]","draggable":false}]]}]}],["$","li",null,{"className":"@container flex aspect-[2/1] items-center rounded-doc-frame border border-cn-98 dark:border-cn-17","children":["$","div",null,{"className":"flex w-full flex-col items-center gap-[calc(42.8cqw*92/385*0.3)]","children":[["$","img","symbol-black",{"src":"/brand/logos/logo/symbol-black.svg","alt":"FlowKat 검정 심볼","className":"h-auto w-[24%]","draggable":false}]]}]}]]}]
+3a:T26fb,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <rect width="91" height="92" transform="translate(421 178)" fill="#EAEBEC"/>
 <rect x="401.25" y="159.25" width="130.5" height="130.5" stroke="#C2C4C8" stroke-width="0.5"/>
 <path d="M465.741 270.482C440.519 270.482 420 249.963 420 224.741C420 199.519 440.519 179 465.741 179C490.963 179 511.482 199.519 511.482 224.741C511.482 249.963 490.963 270.482 465.741 270.482ZM465.741 180.407C441.295 180.407 421.406 200.295 421.406 224.741C421.406 249.187 441.295 269.076 465.741 269.076C490.187 269.076 510.075 249.187 510.075 224.741C510.075 200.295 490.187 180.407 465.741 180.407Z" fill="#010203"/>
@@ -198,10 +191,10 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 <path d="M400 178L392 178L392 158L400 158" stroke-width="0.5" stroke="#C2C4C8"/>
 <path d="M400 270L392 270L392 178L400 178" stroke-width="0.5" stroke="#C2C4C8"/>
 </svg>
-33:["$","figure",null,{"className":"not-prose my-doc-content","children":[["$","div",null,{"role":"img","aria-label":"FlowKat 심볼 클리어 스페이스","className":"rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$41"}}],"$L42"]}]
-34:["$","$L2d",null,{"as":"h2","id":"logo-types","children":"Logo Types"}]
-35:["$","p",null,{"children":"공간에 맞춰 가로형과 세로형 중 하나를 선택해 사용합니다."}]
-43:T3243,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+22:["$","figure",null,{"className":"not-prose my-doc-content","children":[["$","div",null,{"role":"img","aria-label":"FlowKat 심볼 클리어 스페이스","className":"rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$3a"}}],"$L3b"]}]
+23:["$","$L1c",null,{"as":"h2","id":"logo-types","children":"Logo Types"}]
+24:["$","p",null,{"children":"공간에 맞춰 가로형과 세로형 중 하나를 선택해 사용합니다."}]
+3c:T3243,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-types-h-svg-logo-types-h">
 <g id="s--brand-logos-types-h-svg-Group">
 <g id="s--brand-logos-types-h-svg-wordmark" data-wordmark="">
@@ -244,10 +237,10 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-36:["$","ul",null,{"className":"not-prose my-doc-content grid grid-cols-1 gap-3 min-[640px]:grid-cols-2","children":[["$","li","types/h.svg",{"children":["$","div",null,{"role":"img","aria-label":"FlowKat 가로형 로고","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$43"}}]}],"$L44"]}]
-37:["$","$L2d",null,{"as":"h2","id":"usage-guidelines","children":"Usage Guidelines"}]
-38:["$","p",null,{"children":"로고를 임의로 변형하면 브랜드의 일관성이 깨집니다. 아래와 같이 사용하지 않습니다."}]
-45:T3441,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+25:["$","ul",null,{"className":"not-prose my-doc-content grid grid-cols-1 gap-3 min-[640px]:grid-cols-2","children":[["$","li","types/h.svg",{"children":["$","div",null,{"role":"img","aria-label":"FlowKat 가로형 로고","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$3c"}}]}],"$L3d"]}]
+26:["$","$L1c",null,{"as":"h2","id":"usage-guidelines","children":"Usage Guidelines"}]
+27:["$","p",null,{"children":"로고를 임의로 변형하면 브랜드의 일관성이 깨집니다. 아래와 같이 사용하지 않습니다."}]
+3e:T3441,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-01-svg-dont-01">
 <g id="s--brand-logos-usage-dont-01-svg-Frame 1358" clip-path="url(#s--brand-logos-usage-dont-01-svg-clip0_252_756)">
 <g id="s--brand-logos-usage-dont-01-svg-Group">
@@ -297,17 +290,17 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </clipPath>
 </defs>
 </svg>
-39:["$","ul",null,{"className":"not-prose my-doc-content grid grid-cols-1 gap-doc-card min-[640px]:grid-cols-2","children":[["$","li","비율 변형",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 비율 변형","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$45"}}],"$L46","$L47"]}],"$L48","$L49","$L4a","$L4b","$L4c","$L4d","$L4e","$L4f","$L50","$L51","$L52"]}]
-3a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3zmii6hiij-4t.css","precedence":"next"}]
-3b:["$","script","script-0",{"src":"/_next/static/chunks/25so3-l8latpu.js","async":true}]
-3c:["$","script","script-1",{"src":"/_next/static/chunks/2-aw6zhzho9z7.js","async":true}]
-3d:["$","script","script-2",{"src":"/_next/static/chunks/15im2dgcgf536.js","async":true}]
-3e:["$","$L53",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@54"}]}]
-20:true
-8:C
-40:["$","figcaption",null,{"className":"mt-doc-caption","children":[["$","p",null,{"className":"text-doc-caption-title text-fd-foreground","children":"Clear Space"}],["$","div",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":["$","p",null,{"children":"로고 둘레에 로고 높이(x)의 0.25배 이상을 비워 둡니다."}]}]]}]
-42:["$","figcaption",null,{"className":"mt-doc-caption","children":[["$","p",null,{"className":"text-doc-caption-title text-fd-foreground","children":"Clear Space"}],["$","div",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":["$","p",null,{"children":"로고 둘레에 로고 높이(x)의 0.25배 이상을 비워 둡니다."}]}]]}]
-55:T3241,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+28:["$","ul",null,{"className":"not-prose my-doc-content grid grid-cols-1 gap-doc-card min-[640px]:grid-cols-2","children":[["$","li","비율 변형",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 비율 변형","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$3e"}}],"$L3f","$L40"]}],"$L41","$L42","$L43","$L44","$L45","$L46","$L47","$L48","$L49","$L4a","$L4b"]}]
+29:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2v5wlbiqhz38i.css","precedence":"next"}]
+2a:["$","script","script-0",{"src":"/_next/static/chunks/0177c_ias8ljn.js","async":true}]
+2b:["$","script","script-1",{"src":"/_next/static/chunks/0yxem6sg8na1w.js","async":true}]
+2c:["$","script","script-2",{"src":"/_next/static/chunks/178aw04ag7prk.js","async":true}]
+2d:["$","$L4c",null,{"children":["$","$33",null,{"name":"Next.MetadataOutlet","children":"$@4d"}]}]
+37:true
+a:300
+39:["$","figcaption",null,{"className":"mt-doc-caption","children":[["$","p",null,{"className":"text-doc-caption-title text-fd-foreground","children":"Clear Space"}],["$","div",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":["$","p",null,{"children":"로고 둘레에 로고 높이(x)의 0.25배 이상을 비워 둡니다."}]}]]}]
+3b:["$","figcaption",null,{"className":"mt-doc-caption","children":[["$","p",null,{"className":"text-doc-caption-title text-fd-foreground","children":"Clear Space"}],["$","div",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":["$","p",null,{"children":"로고 둘레에 로고 높이(x)의 0.25배 이상을 비워 둡니다."}]}]]}]
+4e:T3241,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-types-v-svg-logo-types-v">
 <g id="s--brand-logos-types-v-svg-Group">
 <g id="s--brand-logos-types-v-svg-Group_2">
@@ -350,10 +343,10 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-44:["$","li","types/v.svg",{"children":["$","div",null,{"role":"img","aria-label":"FlowKat 세로형 로고","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$55"}}]}]
-46:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","비율 변형"]}]
-47:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고의 가로세로 비율을 바꾸지 않습니다."}]
-56:T32f5,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+3d:["$","li","types/v.svg",{"children":["$","div",null,{"role":"img","aria-label":"FlowKat 세로형 로고","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$4e"}}]}]
+3f:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","비율 변형"]}]
+40:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고의 가로세로 비율을 바꾸지 않습니다."}]
+4f:T32f5,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-02-svg-dont-02">
 <g id="s--brand-logos-usage-dont-02-svg-Group">
 <g id="s--brand-logos-usage-dont-02-svg-wordmark" data-wordmark="">
@@ -396,8 +389,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-48:["$","li","심볼과 워드마크 위치 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 심볼과 워드마크 위치 변경","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$56"}}],"$L57","$L58"]}]
-59:T32dc,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+41:["$","li","심볼과 워드마크 위치 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 심볼과 워드마크 위치 변경","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$4f"}}],"$L50","$L51"]}]
+52:T32dc,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-03-svg-dont-03">
 <g id="s--brand-logos-usage-dont-03-svg-Group">
 <g id="s--brand-logos-usage-dont-03-svg-wordmark" data-wordmark="">
@@ -440,8 +433,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-49:["$","li","심볼 크기 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 심볼 크기 변경","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$59"}}],"$L5a","$L5b"]}]
-5c:T3743,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+42:["$","li","심볼 크기 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 심볼 크기 변경","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$52"}}],"$L53","$L54"]}]
+55:T3743,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-04-svg-dont-04">
 <g id="s--brand-logos-usage-dont-04-svg-Frame 1409">
 <g id="s--brand-logos-usage-dont-04-svg-Group">
@@ -487,8 +480,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-4a:["$","li","규정에 없는 조합",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 규정에 없는 조합","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$5c"}}],"$L5d","$L5e"]}]
-5f:T294c,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+43:["$","li","규정에 없는 조합",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 규정에 없는 조합","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$55"}}],"$L56","$L57"]}]
+58:T294c,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-05-svg-dont-05">
 <g id="s--brand-logos-usage-dont-05-svg-Frame 1410">
 <path id="s--brand-logos-usage-dont-05-svg-FlowKat" data-wordmark="" d="M235.422 256V194.615H277.052V206.4H249.836V219.372H274.339V231.158H249.836V256H235.422ZM298.757 194.615V256H284.428V194.615H298.757ZM329.28 256.848C314.867 256.848 306.134 247.267 306.134 233.108C306.134 218.949 314.867 209.368 329.28 209.368C343.694 209.368 352.427 218.949 352.427 233.108C352.427 247.267 343.694 256.848 329.28 256.848ZM329.365 246.08C334.791 246.08 337.844 240.739 337.844 233.023C337.844 225.307 334.791 219.966 329.365 219.966C323.769 219.966 320.717 225.307 320.717 233.023C320.717 240.739 323.769 246.08 329.365 246.08ZM367.519 256L355.394 209.961H369.723L376.167 239.721H376.506L383.374 209.961H397.363L404.401 239.552H404.74L410.929 209.961H425.343L413.218 256H397.957L390.665 228.699H390.072L382.78 256H367.519ZM431.193 256V194.615H445.607V220.814H446.454L467.057 194.615H484.184L462.225 222.001L484.523 256H467.227L451.711 231.666L445.607 239.212V256H431.193ZM487.745 243.197C487.745 233.023 495.63 229.377 504.787 228.784C508.094 228.572 513.859 228.36 515.809 228.275V224.544C515.809 221.323 513.435 219.542 509.535 219.542C505.72 219.542 503.346 221.153 502.752 224.205H489.441C490.034 216.066 496.987 209.368 509.874 209.368C521.236 209.368 530.138 214.794 530.138 224.714V256H516.657V249.556H516.318C513.775 254.219 509.366 256.848 502.922 256.848C494.104 256.848 487.745 252.354 487.745 243.197ZM501.311 242.604C501.311 245.741 503.77 247.352 507.246 247.352C512.079 247.352 515.979 244.215 515.894 239.636V236.669C514.156 236.754 509.281 236.966 507.161 237.178C503.6 237.601 501.311 239.552 501.311 242.604ZM564.561 209.961V220.475H556.168V241.586C556.168 244.469 557.609 245.317 560.068 245.402C561.255 245.487 563.544 245.317 565.155 245.232V256.17C563.798 256.339 561.424 256.678 558.033 256.678C547.943 256.678 541.839 252.524 541.923 243.197V220.475H535.734V209.961H541.923V198.939H556.168V209.961H564.561Z" fill="#010203"/>
@@ -526,8 +519,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-4b:["$","li","다른 서체로 대체",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 다른 서체로 대체","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$5f"}}],"$L60","$L61"]}]
-62:T3560,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+44:["$","li","다른 서체로 대체",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 다른 서체로 대체","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$58"}}],"$L59","$L5a"]}]
+5b:T3560,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-06-svg-dont-06" clip-path="url(#s--brand-logos-usage-dont-06-svg-clip0_252_863)">
 <g id="s--brand-logos-usage-dont-06-svg-Group 15">
 <rect id="s--brand-logos-usage-dont-06-svg-Rectangle 87" x="214" y="-234" width="912" height="514" fill="white"/>
@@ -582,8 +575,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </clipPath>
 </defs>
 </svg>
-4c:["$","li","지면 가장자리 배치",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 지면 가장자리 배치","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$62"}}],"$L63","$L64"]}]
-65:T32f6,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+45:["$","li","지면 가장자리 배치",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 지면 가장자리 배치","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$5b"}}],"$L5c","$L5d"]}]
+5e:T32f6,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-07-svg-dont-07">
 <g id="s--brand-logos-usage-dont-07-svg-Group 12">
 <g id="s--brand-logos-usage-dont-07-svg-Group">
@@ -628,8 +621,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-4d:["$","li","색상 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 색상 변경","className":"rounded-doc-frame border border-cn-98 dark:border-cn-17 dark:bg-cn-20 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$65"}}],"$L66","$L67"]}]
-68:T422b,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+46:["$","li","색상 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 색상 변경","className":"rounded-doc-frame border border-cn-98 dark:border-cn-17 dark:bg-cn-20 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$5e"}}],"$L5f","$L60"]}]
+61:T422b,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-08-svg-dont-08">
 <g id="s--brand-logos-usage-dont-08-svg-Group 12">
 <g id="s--brand-logos-usage-dont-08-svg-Group">
@@ -690,8 +683,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-4e:["$","li","라인으로 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 라인으로 변경","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$68"}}],"$L69","$L6a"]}]
-6b:T3399,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+47:["$","li","라인으로 변경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 라인으로 변경","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$61"}}],"$L62","$L63"]}]
+64:T3399,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-09-svg-dont-09">
 <g id="s--brand-logos-usage-dont-09-svg-Group 12">
 <rect id="s--brand-logos-usage-dont-09-svg-Rectangle 7" x="239" y="185.24" width="422" height="80" fill="#FAAEE9"/>
@@ -737,8 +730,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </g>
 </g>
 </svg>
-4f:["$","li","도형 안에 배치",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 도형 안에 배치","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$6b"}}],"$L6c","$L6d"]}]
-6e:T365a,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+48:["$","li","도형 안에 배치",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 도형 안에 배치","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$64"}}],"$L65","$L66"]}]
+67:T365a,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-10-svg-dont-10">
 <g id="s--brand-logos-usage-dont-10-svg-Group 12" filter="url(#s--brand-logos-usage-dont-10-svg-filter0_d_252_967)">
 <g id="s--brand-logos-usage-dont-10-svg-Group">
@@ -795,8 +788,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </filter>
 </defs>
 </svg>
-50:["$","li","효과 적용",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 효과 적용","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$6e"}}],"$L6f","$L70"]}]
-71:T348c,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+49:["$","li","효과 적용",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 효과 적용","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$67"}}],"$L68","$L69"]}]
+6a:T348c,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-11-svg-dont-11" clip-path="url(#s--brand-logos-usage-dont-11-svg-clip0_252_1002)">
 <rect width="900" height="450" fill="#4D4E4F"/>
 <path id="s--brand-logos-usage-dont-11-svg-Rectangle 86" d="M900 0H0V450L900 0Z" fill="#FF878A"/>
@@ -848,8 +841,8 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </clipPath>
 </defs>
 </svg>
-51:["$","li","식별이 어려운 배경색",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 식별이 어려운 배경색","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$71"}}],"$L72","$L73"]}]
-74:T589d,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+4a:["$","li","식별이 어려운 배경색",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 식별이 어려운 배경색","className":"doc-svg-wordmark rounded-doc-frame border border-cn-98 dark:border-cn-17 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$6a"}}],"$L6b","$L6c"]}]
+6d:T589d,<svg viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
 <g id="s--brand-logos-usage-dont-12-svg-dont-12" clip-path="url(#s--brand-logos-usage-dont-12-svg-clip0_252_1074)">
 <rect width="900" height="450" fill="white"/>
 <g id="s--brand-logos-usage-dont-12-svg-Group 13">
@@ -974,33 +967,32 @@ f:["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:props:chil
 </clipPath>
 </defs>
 </svg>
-52:["$","li","복잡한 배경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 복잡한 배경","className":"rounded-doc-frame border border-cn-98 dark:border-cn-17 dark:bg-cn-20 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$74"}}],"$L75","$L76"]}]
-54:null
-57:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","심볼과 워드마크 위치 변경"]}]
-58:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"심볼과 워드마크의 순서와 배치를 바꾸지 않습니다."}]
-5a:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","심볼 크기 변경"]}]
-5b:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"워드마크와 비교해 심볼만 키우거나 줄이지 않습니다."}]
-5d:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","규정에 없는 조합"]}]
-5e:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고에 서비스명 등 다른 요소를 임의로 붙이지 않습니다."}]
-60:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","다른 서체로 대체"]}]
-61:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"워드마크를 다른 서체로 바꿔 쓰지 않습니다."}]
-63:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","지면 가장자리 배치"]}]
-64:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"클리어 스페이스를 확보하고 지면 끝에 붙여 두지 않습니다."}]
-66:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","색상 변경"]}]
-67:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"정해진 브랜드 컬러 외의 색으로 바꾸지 않습니다."}]
-69:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","라인으로 변경"]}]
-6a:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고를 외곽선만 남긴 형태로 바꾸지 않습니다."}]
-6c:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","도형 안에 배치"]}]
-6d:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"클리어 스페이스를 침범하는 도형이나 박스 안에 넣지 않습니다."}]
-6f:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","효과 적용"]}]
-70:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"그림자 등 임의의 효과를 더하지 않습니다."}]
-72:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","식별이 어려운 배경색"]}]
-73:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고가 잘 보이지 않는 배경색 위에 쓰지 않습니다."}]
-75:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-orange","children":"Don't"}]," ","복잡한 배경"]}]
-76:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"패턴처럼 복잡한 배경 위에 쓰지 않습니다."}]
-1f:0
-13:"$undefined"
-10:"$undefined"
-7:"$undefined"
-1e:"$undefined"
-17:"$undefined"
+4b:["$","li","복잡한 배경",{"children":[["$","div",null,{"role":"img","aria-label":"Don't 복잡한 배경","className":"rounded-doc-frame border border-cn-98 dark:border-cn-17 dark:bg-cn-20 aspect-[2/1] w-full","dangerouslySetInnerHTML":{"__html":"$6d"}}],"$L6e","$L6f"]}]
+4d:null
+a:C
+50:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","심볼과 워드마크 위치 변경"]}]
+51:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"심볼과 워드마크의 순서와 배치를 바꾸지 않습니다."}]
+53:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","심볼 크기 변경"]}]
+54:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"워드마크와 비교해 심볼만 키우거나 줄이지 않습니다."}]
+56:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","규정에 없는 조합"]}]
+57:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고에 서비스명 등 다른 요소를 임의로 붙이지 않습니다."}]
+59:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","다른 서체로 대체"]}]
+5a:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"워드마크를 다른 서체로 바꿔 쓰지 않습니다."}]
+5c:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","지면 가장자리 배치"]}]
+5d:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"클리어 스페이스를 확보하고 지면 끝에 붙여 두지 않습니다."}]
+5f:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","색상 변경"]}]
+60:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"정해진 브랜드 컬러 외의 색으로 바꾸지 않습니다."}]
+62:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","라인으로 변경"]}]
+63:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고를 외곽선만 남긴 형태로 바꾸지 않습니다."}]
+65:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","도형 안에 배치"]}]
+66:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"클리어 스페이스를 침범하는 도형이나 박스 안에 넣지 않습니다."}]
+68:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","효과 적용"]}]
+69:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"그림자 등 임의의 효과를 더하지 않습니다."}]
+6b:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","식별이 어려운 배경색"]}]
+6c:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"로고가 잘 보이지 않는 배경색 위에 쓰지 않습니다."}]
+6e:["$","h3",null,{"className":"mt-doc-caption text-doc-caption-title text-fd-foreground","children":[["$","span",null,{"className":"text-brand-accent-orange","children":"Don't"}]," ","복잡한 배경"]}]
+6f:["$","p",null,{"className":"mt-doc-caption-title text-doc-caption-text text-caption-sub","children":"패턴처럼 복잡한 배경 위에 쓰지 않습니다."}]
+36:0
+8:"$undefined"
+35:"$undefined"
+2e:"$undefined"
