@@ -1,8 +1,9 @@
-:HL["/_next/static/chunks/3bm8as690ew-7.css","style"]
+:HL["/_next/static/chunks/0b7r4d6d2sju_.css","style"]
 :HL["/_next/static/chunks/3g0swdfco2nv5.css","style"]
 :HL["/_next/static/chunks/2v5wlbiqhz38i.css","style"]
-:HL["/landing/foundation/iconography.webp","image"]
+:HL["/foundation/cards/iconography.svg","image"]
+:HL["/foundation/cards/iconography-dark.svg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"c","k":"foundation/iconography","s":["fonts"]},"h":65600,"c":"$Q3"}]]
 1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
-0:{"b":"o28f8SKsi9Y__YVlmqRPQ","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"AXQjMrS8tDEJMwGJZktqP","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
