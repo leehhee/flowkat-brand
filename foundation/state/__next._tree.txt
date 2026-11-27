@@ -1,9 +1,9 @@
 :HL["/_next/static/chunks/0b7r4d6d2sju_.css","style"]
-:HL["/_next/static/chunks/3g0swdfco2nv5.css","style"]
+:HL["/_next/static/chunks/423i22to8imx8.css","style"]
 :HL["/_next/static/chunks/2v5wlbiqhz38i.css","style"]
 :HL["/foundation/cards/state.svg","image"]
 :HL["/foundation/cards/state-dark.svg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"c","k":"foundation/state","s":["fonts"]},"h":65600,"c":"$Q3"}]]
 1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
-0:{"b":"AXQjMrS8tDEJMwGJZktqP","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"bwAq8IZag1Pv2C0J2RL-I","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
